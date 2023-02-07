@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('Homepage');
 });
 
-Route::get('/Secondpage', function () {
+Route::get('/secondpage', function () {
     return view('Secondpage');
 });
